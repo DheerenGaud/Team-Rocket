@@ -1,0 +1,16 @@
+{
+    "id":0,
+    "name":"Fr. C. Rodrigues Institute of Technolog",
+    "Principle_email":"abc",
+    "principle_possword":"123",
+    "collage_info": {
+        "history":"The Agnel Ashram Fathers – a group of Catholic priests and brothers, along with some well educated, dedicated, zealous and patriotic co-workers have, during the last 45 years, built up a large well-knit family of committed individuals. This unique family, which is spread over different parts of the country, has been instrumental in propounding a powerful MOVEMENT in the realm of education.",
+        "accreditation":"abc",
+        "founded":"15/4/2020",
+        "achievement":[{
+            "title":"Collage of the Year",
+            "content":"xyz",
+            "img":"xyz"
+        }]
+    }
+}
