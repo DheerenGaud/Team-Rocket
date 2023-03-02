@@ -4,7 +4,8 @@ import IconButton from "@mui/material/IconButton";
 import { Link } from "react-router-dom";
 import {  TextField,  OutlinedInput,  InputAdornment,  InputLabel,} from "@mui/material";
 import {  Visibility, VisibilityOff } from "@mui/icons-material";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from "react-router-dom";
 import {findUser} from "./api/user"
 import "../style/style.css";
@@ -20,9 +21,9 @@ export default function Login() {
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
 
-  
 
   const navigate = useNavigate();
+
   const handleChange = (e)=>{
        const {name,value}=e.target;
        setUser({...user,[name]:value})
@@ -36,22 +37,24 @@ export default function Login() {
         console.log("data.data._id => "+data.data._id)
        const id=data.data._id
         if (id > -1) {
+          toast.success("Login Succesfully");
           navigate(`/tutorial/${id}`)
         }
         else{
-          console.log("helow")
-          navigate("/Ssingup");
+          toast.error("Enter Correct possword");
+          // navigate("/login");
         }
       }
       else{
-        navigate("/Ssingup");
+        toast.error("Fill The Input");
+        // navigate("/login");
       }
  
   }
 
   return (
-    <div className="  container-fluid d-flex h-vh flex-column align-self-center  justify-content-center ">
-    <div className="main  d-flex col-12 h- justify-content-center align-items-center bg-white " style={{height:"100vh"}}>
+    <div className="  container-fluid d-flex h-vh flex-column align-self-center px-5  justify-content-center" style={{height:"100vh"}}>
+    <div className="main  d-flex col-12   justify-content-center align-items-center bg-white rounded-3 " style={{height:"80vh"}}>
         <div className="left  bg-slate-300  col-5">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" className="w-100 h-vh" alt="" />
        </div>
@@ -79,6 +82,7 @@ export default function Login() {
         </div>
        </div>
     </div>
+    <ToastContainer />
 </div>
   );
 }

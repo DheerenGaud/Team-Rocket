@@ -20,3 +20,14 @@ export const getVedios = async(SubId)=>{
           console.log("error is occur in finding data by api")
     }
 }
+
+export const getContentOfsector = async()=>{
+
+    try{
+       
+        return await axios.get(`${url}/data/dataofSector`)
+    }
+    catch(err){
+          console.log("error is occur in finding getSector data by api")
+    }
+}

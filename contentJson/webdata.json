@@ -1,0 +1,141 @@
+{   "_id":0,  
+  "content":[
+    {    "_id":0,
+        "subjet":"Web Development",
+    "data":[
+        {
+        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+        "vedio":"https://www.youtube.com/embed/ER9SspLe4Hg"
+      },
+        {
+        "topic": "Variables in JavaScript | JavaScript Tutorial in Hindi #2",
+        "vedio":"https://www.youtube.com/embed/Q4p8vRQX8uY"
+      },
+        {
+        "topic": "const, let and var in JavaScript | JavaScript Tutorial in Hindi #3",
+        "vedio":"https://www.youtube.com/embed/Icev9Oxf0WA"
+      },
+        {
+        "topic": "Primitives and Objects in JavaScript | JavaScript Tutorial in Hindi #4",
+        "vedio":"https://www.youtube.com/embed/qpU3WIqRz9I"
+      },
+        {
+        "topic": "JavaScript Chapter 1 - Practice Set | JavaScript Tutorial in Hindi #5",
+        "vedio":"https://www.youtube.com/embed/vA-AAeqkpxM"
+      },
+        {
+        "topic": "JavaScript Operators and Expressions | JavaScript Tutorial in Hindi #6",
+        "vedio":"https://www.youtube.com/embed/vA-AAeqkpxM"
+      },
+        {
+        "topic": "Conditional expressions in JavaScript | JavaScript Tutorial in Hindi #7",
+        "vedio":"https://www.youtube.com/embed/vA-AAeqkpxM"
+      },
+        {
+        "topic": "JavaScript Chapter 2 - Practice Set on Operators and Conditionals | JavaScript Tutorial in Hindi #8",
+        "vedio":"https://www.youtube.com/embed/vA-AAeqkpxM"
+      },
+        {
+        "topic": "For Loops in JavaScript | JavaScript Tutorial in Hindi #9",
+        "vedio":"https://www.youtube.com/embed/vA-AAeqkpxM"
+      },
+        {
+        "topic": "While Loops in JavaScript | JavaScript Tutorial in Hindi #10 ",
+        "vedio":"https://www.youtube.com/embed/vA-AAeqkpxM"
+      } 
+    ]}
+    ,
+    {      "_id":1,
+        "subjet":"Python",
+    "data":[
+        {
+        "topic": "Beginner Friendly Full Python Tutorials(Teaser) | Python Tutorials For Absolute Beginners In Hindi#0",
+        "vedio":"https://www.youtube.com/embed/aqvDTCpNRek"
+     },
+        {
+        "topic": "What is Programming & Why Learn Python? | Python Tutorials For Absolute Beginners In Hindi #1",
+        "vedio":"https://www.youtube.com/embed/vrQlEhmVFDA"
+     },
+        {
+        "topic": "Downloading Python and Pycharm Installation | Python Tutorials For Absolute Beginners In Hindi #2",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": "Using Modules & Pip In Python | Python Tutorials For Absolute Beginners In Hindi #3",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": "Writing Our First Python Program | Python Tutorials For Absolute Beginners In Hindi #4",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": "Using Python As A Calculator | Python Tutorials For Absolute Beginners In Hindi #5",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": "Comments, Escape Sequences & Print Statement| Python Tutorials For Absolute Beginners In Hindi #6",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": "Variables, Datatypes and Typecasting | Python Tutorials For Absolute Beginners In Hindi #7",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": "String Slicing And Other Functions In Python | Python Tutorials For Absolute Beginners In Hindi #8",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic":"Python Lists And List Functions | Python Tutorials For Absolute Beginners In Hindi #9",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     },
+        {
+        "topic": " Dictionary & Its Functions Explained | Python Tutorials For Absolute Beginners In Hindi #10",
+        "vedio":"https://www.youtube.com/embed/MoeQlmeJnPg"
+     }
+    ]},
+   
+    {    "_id":2,
+        "subjet":"Java",
+    "data":[{
+        "topic": "Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java",
+        "vedio":"https://www.youtube.com/embed/zIdg7hkqNE0"
+    },
+    {
+        "topic": "Basic Structure of a Java Program: Understanding our First Java Hello World Program",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Variables and Data Types in Java Programming",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Literals in Java",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Getting User Input in Java",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Programming Exercise 1: CBSE Board Percentage Calculator",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Chapter 1- Practice Set | Java Practice Problems With Solution",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Operators, Types of Operators & Expressions in Java",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Associativity of Operators in Java",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    },
+    {
+        "topic": "Java Tutorial: Data Type of Expressions & Increment/Decrement Operators",
+        "vedio":"https://www.youtube.com/embed/X0zdAG7gfgs"
+    }
+    ]}
+]
+}

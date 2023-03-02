@@ -1,0 +1,195 @@
+{ "sector": [
+    {
+"sectorname":"Agriculture",
+        "_id": 0,
+        "content": [
+            {
+                "_id": 0,
+                "subjet": "Agriculture Marketing",
+                "data": [
+                    {
+                        "topic": "Government Steps | e-NAM |",
+                        "vedio": "https://www.youtube.com/embed/RCqf4NzdbFI"
+                    },
+                    {
+                        "topic": "Agricultural Pricing | MSP | Costs: A2, A2+FL, C2 | Swaminathan Commission ",
+                        "vedio": "https://www.youtube.com/embed/4sHoUFQTskM"
+                    },
+                    {
+                        "topic": "E-Technology In The Aid Of Farmers | Precision Agriculture | Challenges",
+                        "vedio": "https://www.youtube.com/embed/7lEVNppLjnU"
+                    },
+                    {
+                        "topic": "Agricultural Marketing, Trade and Prices|Agri Economics|Agril Marketing",
+                        "vedio": "https://www.youtube.com/embed/Lp1tL_P79I8"
+                    },
+                    {
+                        "topic": "The FUTURE Of Agriculture In India",
+                        "vedio": "https://www.youtube.com/embed/ZFsz-cFXzM8"
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "subjet": "Soil and water conservation",
+                "data": [
+                    {
+                        "topic": "Soil & Water conservation in Spice production",
+                        "vedio": "https://www.youtube.com/embed/LGmqFWcVdY4"
+                    },
+                    {
+                        "topic": "Introduction to soil and water conservation(Lecture-1)-By My Choice Agriculture",
+                        "vedio": "https://www.youtube.com/embed/xDydb0HSS7g"
+                    },
+                    {
+                        "topic": "Soil Erosion || Types of soil erosion || factors affecting soil erosion",
+                        "vedio": "https://www.youtube.com/embed/v1k6BKsTELc"
+                    },
+                    {
+                        "topic": "Soil Conservation ",
+                        "vedio": "https://www.youtube.com/embed/n3oC-vpzKRc"
+                    }
+                    
+                ]
+            },
+            {
+                "_id": 2,
+                "subjet": "dairy farming",
+                "data": [
+                    {
+                        "topic": "Left MNC job to start High-Tech Dairy Farm || Jersy HF Cow farming business India 🇳🇿",
+                        "vedio": "https://www.youtube.com/embed/Ldz4_tFmolw"
+                    },
+                    {
+                        "topic": "start a dairy farm",
+                        "vedio": "https://www.youtube.com/embed/YP_5owNtFuM"
+                    },
+                    {
+                        "topic": "dairy farming in Punjab",
+                        "vedio": "https://www.youtube.com/embed/NqsElw63bv8"
+                    },
+                    {
+                        "topic": "How to earn high money from gir cow dairy farm",
+                        "vedio": "https://www.youtube.com/embed/0utTNdkUFQM"
+                    },
+                    {
+                        "topic": "Know Farm Fresh Milk- Binsar Farms",
+                        "vedio": "https://www.youtube.com/embed/phIqO_V_cgY"
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "subjet": " Animal husbandry",
+                "data": [
+                    {
+                        "topic": "ANIMAL HUSBANDRY in 30 minutes ",
+                        "vedio": "https://www.youtube.com/embed/R-gdVHL4AUg"
+                    },
+                    {
+                        "topic": "Animal Husbandry and Cattle Farming | Don't Memorise",
+                        "vedio": "https://www.youtube.com/embed/Bc1UJZTcHkc"
+                    },
+                    {
+                        "topic": "Animal Husbandry || Part-1 ",
+                        "vedio": "https://www.youtube.com/embed/CSDNYiyUFmo"
+                    },
+                    {
+                        "topic": "Animal Husbandry || Part-2",
+                        "vedio": "https://www.youtube.com/embed/TnbiiicbYGg"
+                    }
+                   
+                ]
+            }
+        ]
+    },
+    {
+"Sectorname":"Bank",
+        "_id": 1,
+        "content": [
+            {
+                "_id": 0,
+                "subjet": "Govt Schemes",
+                "data": [
+                    {
+                        "topic": "National Pension Scheme",
+                        "vedio": "https://www.youtube.com/embed/6ASO0R_mf9c"
+                    },
+                    {
+                        "topic": "Public Provident Fund",
+                        "vedio": "https://www.youtube.com/embed/002F3UXySiM"
+                    },
+                    {
+                        "topic": "Capital Gains A/C Scheme",
+                        "vedio": "https://www.youtube.com/embed/pihoM1cseng"
+                    },
+                    {
+                        "topic": "Gold banking",
+                        "vedio": "https://www.youtube.com/embed/bBiuyXWgSoE"
+                    },
+                    {
+                        "topic": "Senior Citizens Savings Scheme",
+                        "vedio": "https://www.youtube.com/embed/vgQ6Ekwv3e4"
+                    },
+                    {
+                        "topic": "Sukanya Samriddhi Account",
+                        "vedio": "https://www.youtube.com/embed/YpYH4I2q5YQ"
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "subjet": "Bank Process",
+                "data": [
+                    {
+                        "topic": "SBI Zero Balance Saving Account Opening process | Apply Online | How to open abi account online",
+                        "vedio": "https://www.youtube.com/embed/vln0AM_oQmA"
+                    },
+                    {
+                        "topic": "SBI Zero Balance Saving Account Opening process | Apply Online | How to open abi account online",
+                        "vedio": "https://www.youtube.com/embed/vln0AM_oQmA"
+                    },
+                    {
+                        "topic": "SBI Zero Balance Saving Account Opening process | Apply Online | How to open abi account online",
+                        "vedio": "https://www.youtube.com/embed/vln0AM_oQmA"
+                    },
+                    {
+                        "topic": "SBI Zero Balance Saving Account Opening process | Apply Online | How to open abi account online",
+                        "vedio": "https://www.youtube.com/embed/vln0AM_oQmA"
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "subjet": "Income Tax in India",
+                "data": [
+                    {
+                        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+                        "vedio": "https://www.youtube.com/embed/ER9SspLe4Hg"
+                    },
+                    {
+                        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+                        "vedio": "https://www.youtube.com/embed/ER9SspLe4Hg"
+                    },
+                    {
+                        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+                        "vedio": "https://www.youtube.com/embed/ER9SspLe4Hg"
+                    },
+                    {
+                        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+                        "vedio": "https://www.youtube.com/embed/ER9SspLe4Hg"
+                    },
+                    {
+                        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+                        "vedio": "https://www.youtube.com/embed/ER9SspLe4Hg"
+                    },
+                    {
+                        "topic": "Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi#1",
+                        "vedio": "https://www.youtube.com/embed/ER9SspLe4Hg"
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

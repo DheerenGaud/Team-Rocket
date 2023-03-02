@@ -12,6 +12,11 @@ import {useNavigate} from "react-router-dom"
 import { useState } from "react";
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+// import * as React from 'react';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 
@@ -38,7 +43,10 @@ export default function SignUp() {
     Lname:"",
     password:"",
     rpassword:"",
-    email:""
+    email:"",
+    collage:"",
+    standard:"",
+    profilePic:""
   }) 
 
 
@@ -48,6 +56,7 @@ export default function SignUp() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    console.log(user)
     if(user.password===user.rpassword){
          await newuser(user);
           navigate("/login")
@@ -56,7 +65,12 @@ export default function SignUp() {
       console.log("password and r-password differ")
       navigate("/Ssingup")
     }
+
   };
+
+  const imgUplode = (e)=>{
+    setUser({...user,profilePic:e.target.files[0]})
+  }
   
   const handlechange=(e)=>{
        const {name,value}=e.target;
@@ -106,6 +120,50 @@ export default function SignUp() {
                   onChange={handlechange}
                 />
               </Grid>
+              <Grid item xs={12} >
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 420 }}>
+        <InputLabel id="demo-simple-select-standard-label">College Name</InputLabel>
+        <Select
+          labelId="demo-simple-select-standard-label"
+          id="demo-simple-select-standard"
+          value={user.collage}
+          name="collage"
+          onChange={handlechange}
+          label="Enter Collage name"
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={"Hindi Primary School"}>Hindi Primary School</MenuItem>
+          <MenuItem value={"Swami Vivekanand College of Engineering"}>Swami Vivekanand College of Engineering</MenuItem>
+          <MenuItem value={"Bharati Vidyapeeth College of Engineering"}>Bharati Vidyapeeth College of Engineering</MenuItem>
+          <MenuItem value={"Fr. Agnel College of Engineering"}>Fr. Agnel College of Engineering</MenuItem>
+          <MenuItem value={"Datta Meghe College of Engineering"}>Datta Meghe College of Engineering</MenuItem>
+        </Select>
+      </FormControl>
+      </Grid>
+              {/* <Grid item xs={12} >
+                <TextField
+                  required
+                  fullWidth
+                  id="collage"
+                  label="Collage Name"
+                  name="collage"
+                  autoComplete="family-name"
+                  onChange={handlechange}
+                />
+              </Grid> */}
+              <Grid item xs={12} >
+                <TextField
+                  required
+                  fullWidth
+                  id="standard"
+                  label="Standard"
+                  name="standard"
+                  autoComplete="family-name"
+                  onChange={handlechange}
+                />
+              </Grid>
               <Grid item xs={12}>
                 <TextField
                   required
@@ -142,6 +200,11 @@ export default function SignUp() {
                 />
               </Grid>
               <Grid item xs={12}>
+              <label  className="form-label">Disabled file input example</label>
+              <input type="file" className="form-control" name='profilePic'   onChange={imgUplode}  />
+            
+              </Grid>
+              <Grid item xs={12}>
                 <FormControlLabel
                   control={<Checkbox value="allowExtraEmails" color="primary" />}
                   label="I want to receive inspiration, marketing promotions and updates via email."
@@ -168,6 +231,7 @@ export default function SignUp() {
         </Box>
         <Copyright sx={{ mt: 5 }} />
       </Container>
+
     </ThemeProvider>
   );
 }

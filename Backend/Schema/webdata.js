@@ -1,14 +1,15 @@
 const mongoose = require("mongoose")
 
-
-const dataSchema= mongoose.Schema({
-   content:[{
+const subjectSchema=mongoose.Schema({
     subject:String,
+    _id:Number,
     data:[{
         topic:String,
-        vedio:String
-    }]
-   }]
+        vedio:String}]
+})
+
+const dataSchema= mongoose.Schema({
+   content:[subjectSchema]
 })
 
 

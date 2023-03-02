@@ -92,6 +92,13 @@ p,h1,h2,h3,h4,h5,h6,strong,span{
 .terminal-font{
   font-family: 'Overpass Mono', monospace;
 }
+
+.img-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* badge */
 
 /* ===== Scrollbar CSS ===== */

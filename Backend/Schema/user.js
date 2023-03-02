@@ -6,7 +6,9 @@ const userShema=mongoose.Schema({
     Lname:String,
     email:String,
     collage:String,
-    password:String
+    password:String,
+    standard:String,
+    profilePic:String
 })
 autoincrement.initialize(mongoose.connection)
 userShema.plugin(autoincrement.plugin,"user")

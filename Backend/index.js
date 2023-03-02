@@ -17,6 +17,7 @@ app.use(express.json())
 app.use("/",Router)
 app.use("/data",Router2)
 app.use("/collage",Router3)
+app.use("/public",express.static('public'))
 
 app.get("/",(req,res)=>{
     res.send("hellow")
